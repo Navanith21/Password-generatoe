@@ -9,13 +9,18 @@ body {
 .container {
   display: flex;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .box {
   display: flex;
+  background-color: aqua;
+  color: #040405;
+  min-width: 220px;
+  min-height: 120px;
   flex-direction: column;
   align-items: center;
+
 }
 
 .password {
@@ -27,7 +32,7 @@ body {
 }
 
 .btn {
-  padding: 8px 16px;
+  padding: 10px 20px;
   border: 2px solid #040405;
   background-color: rgb(64, 105, 165);
   font-weight: bold;
@@ -38,9 +43,17 @@ body {
 
 .big {
   margin-top: 50px;
-  padding: 12px 30px;
+  padding: 10px 45px;
+  font-size: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .middle {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
