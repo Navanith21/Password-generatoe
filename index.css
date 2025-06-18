@@ -1,0 +1,46 @@
+body {
+  font-family: monospace;
+  background: rgb(223, 200, 128);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password {
+  font-size: 18px;
+  color: rgb(10, 12, 10);
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: 2px solid #040405;
+  background-color: rgb(64, 105, 165);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.big {
+  margin-top: 50px;
+  padding: 12px 30px;
+}
+
+.middle {
+  margin-top: 50px;
+}
